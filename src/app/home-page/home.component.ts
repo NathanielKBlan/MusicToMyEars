@@ -5,6 +5,8 @@ import {Component} from '@angular/core'
   template:
     `
     <html>
+      <navbar>
+      </navbar>
       <div style="text-align:center">
         <body>
           <h1>
@@ -35,9 +37,6 @@ import {Component} from '@angular/core'
       bottom: 0;
       left: 0;
       right: 0;
-      height: 100%;
-      width: 100%;
-      margin: 0;
       background-image: url(../../assets/Mantle.jpg);
       background-size: cover;
     }
