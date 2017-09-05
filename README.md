@@ -1,6 +1,12 @@
 # MusicToMyEars
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+=======
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2. Node and npm are required to run this web app.
+
+Before runing make sure to access the file in terminal or cmd and execute `npm install angular/cli`, then execute `npm install`.
+>>>>>>> c06f054f6bb072c219b40c84fcba51fa32713d39
 
 ## Development server
 
