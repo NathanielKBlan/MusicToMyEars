@@ -8,11 +8,7 @@ import { Component } from '@angular/core'
   <nav class="navbar has-shadow">
       <div class="navbar-brand">
         <a class="navbar-item" routerLink="/">
-<<<<<<< HEAD
           MTME
-=======
-          Go to your music
->>>>>>> c06f054f6bb072c219b40c84fcba51fa32713d39
         </a>
         <div class="navbar-burger">
             <span></span>
