@@ -4,9 +4,10 @@ import {Component} from '@angular/core'
   selector: 'home',
   template:
     `
-    <html>
-      <navbar>
-      </navbar>
+  <html>
+    <navbar>
+    </navbar>
+    <br>
       <div style="text-align:center">
         <body>
           <h1>
@@ -27,8 +28,7 @@ import {Component} from '@angular/core'
           <h2><a target="_blank" href="https://blog.angular.io//">Angular blog</a></h2>
         </li>
       </ul>
-    </html>
-
+  </html>
     `,
   styles: [`
     html{
@@ -37,6 +37,8 @@ import {Component} from '@angular/core'
       bottom: 0;
       left: 0;
       right: 0;
+      margin: 0;
+      padding: 0;
       background-image: url(../../assets/Mantle.jpg);
       background-size: cover;
     }
