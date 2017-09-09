@@ -7,8 +7,11 @@ import { Component } from '@angular/core'
 
   <nav class="navbar has-shadow">
       <div class="navbar-brand">
-        <a class="navbar-item" routerLink="/">
-          MTME
+        <a class="navbar-item" href="./././index.html">
+            Home
+        </a>
+        <a class="navbar-item" href="./././index.html" margin-left="40px">
+            Writer
         </a>
         <div class="navbar-burger">
             <span></span>
@@ -30,15 +33,24 @@ import { Component } from '@angular/core'
     }
     nav{
       background-color: #800080;
-      position : relative;
+      position: fixed;
       top : 0%;
-      height : 20;
+      height : 4%;
       width: 100%;
       margin: 0;
       padding: 0;
     }
     a{
-      color: #40E0D0;
+      display: block;
+      color: #AFEEEE;
+      text-decoration: none;
+      top: 0%;
+      float: left;
+      width: 60px;
+      margin-left: 20px;
+    }
+    a:hover{
+      color: #fdfdfd;
     }
   `]
 })
