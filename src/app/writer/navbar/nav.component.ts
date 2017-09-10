@@ -13,6 +13,9 @@ import { Component } from '@angular/core'
         <a class="navbar-item" href="writer" margin-left="40px">
             Writer
         </a>
+        <a class="navbar-item" href="listener" margin-left="80px">
+            Listener
+        </a>
         <div class="navbar-burger">
             <span></span>
             <span></span>

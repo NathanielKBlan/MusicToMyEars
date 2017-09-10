@@ -10,7 +10,7 @@ import {Component} from '@angular/core'
     <br>
     <div>
       <h1>
-        This is where you will write your music:
+        This is where you will listen to your music:
       </h1>
     </div>
   </html>
@@ -35,6 +35,6 @@ import {Component} from '@angular/core'
 
 
 
-export class WriterCompnent{
+export class ListenerCompnent{
 
 }
