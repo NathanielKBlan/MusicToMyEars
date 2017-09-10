@@ -7,10 +7,10 @@ import { Component } from '@angular/core'
 
   <nav class="navbar has-shadow">
       <div class="navbar-brand">
-        <a class="navbar-item" href="./././index.html">
+        <a class="navbar-item" href="">
             Home
         </a>
-        <a class="navbar-item" href="./././index.html" margin-left="40px">
+        <a class="navbar-item" href="writer" margin-left="40px">
             Writer
         </a>
         <div class="navbar-burger">
