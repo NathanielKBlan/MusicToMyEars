@@ -12,6 +12,14 @@ import {Component} from '@angular/core'
       <h1>
         This is where you will write your music:
       </h1>
+      <h2>
+        Please select your cleff.
+      </h2>
+      <select id="selectid" aria-label="Cleff Selection">
+        <option id="TC" ng-selected="selected">Trebble Cleff</option>
+        <option id="BC" ng-selected="selected">Bass Cleff</option>
+        <option id="AC" ng-selected="selected">Alto Cleff</option>
+      </select>
     </div>
   </html>
   `,
@@ -29,6 +37,9 @@ import {Component} from '@angular/core'
       background-image: url(../../assets/Mantle.jpg);
       background-size: cover;
     }
+    .md-toolbar{
+      margin-left: 60px;
+    }
 
   `]
 })
@@ -36,5 +47,16 @@ import {Component} from '@angular/core'
 
 
 export class WriterCompnent{
-
+  trebble = true;
+  bass = false;
+  alto = false;
+  angular: any;
+  option = this.angular.element(document.getElementById('selectid'));
+  selected = this.option.options[this.option.selectedIndex].value;
+  if(selected = "TC"){
+    this.trebble = true;
+    this.bass = false;
+    this.alto = false;
+    console.log("Working")
+  }
 }
